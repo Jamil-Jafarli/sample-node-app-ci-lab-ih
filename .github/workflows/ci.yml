@@ -13,7 +13,7 @@ permissions:
 
 env:
  APP_PORT: 3000
- IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/frontendapp-node
+ IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/frontendapp-node2
  AZURE_RESOURCE_GROUP: web-labs-rg-jamil
  AZURE_WEBAPP_NAME: frontendapp-web-jamil
 
